@@ -334,137 +334,6 @@ body {
   margin-left: 5px;
 }
 
-/*.word{
-    position: absolute;
-    animation: transform;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    color: rgba(255,255,255,0.4);
-    @keyframes transform {
-        from{
-            transform: translate3d(100px, 0px,0);
-        }
-        to{
-            transform: translate3d(0,0px,0);
-        }
-    }
-    &__1{
-        top: 0;
-        left: 3.85vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 60px;
-        line-height: 90px;
-        letter-spacing: 0.098em;
-    }
-
-    &__2{
-        top: 30px;
-        left: 30.03vw;
-        font-family: "balboa";
-        font-style: normal;
-        font-weight: 900;
-        font-size: 60px;
-        line-height: 42px;
-        letter-spacing: 0.103em;
-    }
-    &__3{
-        top: 20px;
-        right: 2.77vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 80px;
-        line-height: 42px;
-        letter-spacing: -0.007em;
-        white-space: nowrap;
-    }
-    &__4{
-        top: 15.79vh;
-        right: 3.28vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 80px;
-        line-height: 42px;
-        letter-spacing: -0.007em;
-    }
-    &__5{
-        top: 33.51vh;
-        right: 3.02vw;
-        font-family: "furore_[allfont.ru]";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 154px;
-        line-height: 54px;
-        letter-spacing: -0.007em;
-        color: rgb(255, 255, 255);
-    }
-    &__6{
-        top: 51.44vh;
-        right: 3.02vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 60px;
-        line-height: 42px;
-        letter-spacing: -0.007em;
-    }
-    &__7{
-        bottom: 29vh;
-        right: 3.02vw;
-        font-family: "Payday";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 80px;
-        line-height: 80px;
-        letter-spacing: -0.007em;
-    }
-    &__8{
-        bottom: 16.86vh;
-        right: 3.02vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 80px;
-        line-height: 42px;
-        letter-spacing: 0.02em;
-
-        text-align: right;
-        max-width: 557px;
-    }
-    &__9{
-        bottom: 4vh;
-        right: 3.02vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 80px;
-        line-height: 42px;
-        letter-spacing: -0.007em;
-    }
-    &__10{
-        bottom: 1vh;
-        right: 24.11vw;
-        font-family: "american-typewriter";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 80px;
-        line-height: 80px;
-        letter-spacing: -0.007em;
-    }
-    &__11{
-        bottom: 2.5vh;
-        left: 3.85vw;
-        font-family: "Balboa";
-        font-style: normal;
-        font-weight: 900;
-        font-size: 80px;
-        line-height: 42px;
-        letter-spacing: -0.007em;
-    }
-}*/
 .word {
   position: absolute;
   -webkit-animation: transform;
@@ -880,7 +749,7 @@ body {
   }
   .video {
     width: 100%;
-    height: 240px;
+    height: 30vh;
   }
   .video video[poster] {
     -o-object-fit: cover;
@@ -910,6 +779,9 @@ body {
   .section-footer {
     position: relative;
   }
+  .section-footer__button {
+    height: 100vh;
+  }
   .section-footer__btn {
     width: 244px;
     height: 58px;
@@ -917,10 +789,15 @@ body {
   .section-footer__btn-link {
     font-size: 18px;
   }
+  .footer {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+  }
   .footer__contacts {
     margin-right: 33px;
     padding-top: 20px;
-    padding-bottom: 65px;
+    padding-bottom: 90px;
   }
   .footer__contacts-link {
     font-weight: 200;

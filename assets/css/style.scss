@@ -698,6 +698,9 @@ body{
 
     .section-footer{
         position: relative;
+        &__button{
+            height: 100vh;
+        }
         &__btn{
             width: 244px;
             height: 58px;
@@ -707,10 +710,13 @@ body{
         }
     }
     .footer{
+        position: absolute;
+        bottom: 40px;
+        right: 0;
         &__contacts{
             margin-right: 33px;
             padding-top: 20px;
-            padding-bottom: 65px;
+            padding-bottom: 90px;
         }
         &__contacts-link{
             font-weight: 200;
